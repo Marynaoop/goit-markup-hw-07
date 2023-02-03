@@ -1,0 +1,185 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+
+  /* ----------------Header--------------- */
+
+  .header-link.current::after {
+    bottom: -22px;
+  }
+  .header-list-contact {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-decoration: none;
+  }
+
+  .header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-decoration: none;
+  }
+  .h-item {
+    list-style: none;
+    display: flex;
+  }
+  .header-item {
+    list-style: none;
+    display: flex;
+  }
+  .header-items {
+    list-style: none;
+    display: flex;
+  }
+  .header-phone {
+    list-style: none;
+    display: flex;
+  }
+  .tel {
+    list-style: none;
+    display: flex;
+  }
+
+  .header-mail,
+  .header-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+    text-decoration: none;
+    transition: color 250ms linear;
+  }
+
+  .header-mail:hover,
+  .header-mail:focus {
+    color: var(--link-color);
+  }
+  .header-tel:hover,
+  .header-tel:focus {
+    color: var(--link-color);
+  }
+  /* -----------------Main--------------- */
+
+  .main-section > .container {
+    width: 1200px;
+  }
+  .main-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/backgrimg.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../img/imglap2x/bag-lap2x.jpg);
+    }
+  }
+
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+
+  .main-button {
+    margin: 40px auto 0;
+  }
+
+  /* -----------Section------------- */
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .section > .conteiner {
+    width: 1200px;
+  }
+  .section-item {
+    width: calc((100% - 120px) / 4);
+  }
+
+  .section-title {
+    text-align: left;
+  }
+
+  .skills-icon-bg {
+    background: var(--background-color);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  /* ----------About------------ */
+  .about {
+    padding-top: 0px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .about-list {
+    list-style: none;
+    gap: 24px;
+  }
+
+  /* ------------Team--------------- */
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .list-item {
+    width: calc((100% - 120px) / 4);
+  }
+  .team > .container {
+    width: 1200px;
+  }
+
+  /* --------------Customers------------ */
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-item {
+    width: calc((100% - 150px) / 6);
+  }
+}
+
+/* --------------Footer------------ */
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-container {
+  display: flex;
+}
+.footer-content {
+  max-width: 264px;
+}
+.footer-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraph-color);
+  width: 264px;
+}

@@ -1,0 +1,210 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  /* ---------------Header-------------- */
+
+  .link {
+    margin-right: 120px;
+  }
+  .header-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: color 250ms linear;
+    position: relative;
+  }
+  .header-link.current::after {
+    bottom: -18px;
+  }
+  .header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-decoration: none;
+  }
+  .header-list-contact {
+    display: block;
+    align-items: center;
+    text-decoration: none;
+  }
+  .h-item {
+    list-style: none;
+    display: flex;
+  }
+  .header-item {
+    list-style: none;
+    display: flex;
+  }
+  .header-items {
+    list-style: none;
+    display: flex;
+  }
+  .header-phone {
+    list-style: none;
+    display: flex;
+    margin-bottom: 4px;
+  }
+  .tel {
+    list-style: none;
+    display: flex;
+  }
+
+  .header-mail,
+  .header-tel {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.04em;
+    color: #434455;
+    text-decoration: none;
+    transition: color 250ms linear;
+  }
+
+  .header-mail:hover,
+  .header-mail:focus {
+    color: var(--link-color);
+  }
+  .header-tel:hover,
+  .header-tel:focus {
+    color: var(--link-color);
+  }
+
+  /* ------------mob-menu */
+
+  .menu-open {
+    display: none;
+  }
+  .mob-menu {
+    display: none;
+  }
+
+  /* ---------------Main---------------- */
+
+  .main-section > .container {
+    width: 768px;
+  }
+  .main-section {
+    padding-top: 112px;
+    padding-bottom: 108px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/imgtab/bag-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../img/imgtab2x/bag-tab2x.jpg);
+    }
+  }
+
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+  /* --------------Section-------------- */
+
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .section > .conteiner {
+    width: 766px;
+  }
+  .section-item {
+    width: calc((100% - 30px) / 2);
+  }
+
+  .section-title {
+    text-align: left;
+  }
+
+  .skills-icon-bg {
+    display: none;
+  }
+
+  /* ----------About------------ */
+
+  .about {
+    display: none;
+  }
+
+  /* -------------Team------------ */
+  .team {
+    padding-top: 96px;
+    padding-bottom: 104px;
+  }
+  .list-item {
+    width: calc((100% - 30px) / 2);
+  }
+  .team > .container {
+    width: 582px;
+  }
+  /* ------------Customers------------ */
+  .customers {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .customers-item {
+    width: calc((100% - 60px) / 3);
+  }
+
+  /* -----------Footer------------ */
+
+  .footer {
+    display: flex;
+  }
+
+  .footer-content {
+    margin-right: 24px;
+    gap: 24px;
+  }
+  .footer-link {
+    display: block;
+  }
+  .footer-messenger-paragraph {
+    display: block;
+  }
+  .footer-input-paragraph {
+    display: block;
+  }
+  .footer-btn {
+    display: flex;
+  }
+  .online-input {
+    width: 264px;
+  }
+  .online-form {
+    margin-left: 80px;
+  }
+  .online-button {
+    margin-left: 24px;
+  }
+  .modal {
+    width: 408px;
+  }
+
+  .check-text {
+    display: flex;
+  }
+  .check-text span {
+    display: flex;
+  }
+}
