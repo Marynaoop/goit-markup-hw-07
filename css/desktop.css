@@ -187,6 +187,7 @@
     max-width: 264px;
     margin-right: auto;
     margin-bottom: 0;
+        margin-left: 0;
   }
   .online-form {
     margin-left: 80px;
@@ -195,9 +196,5 @@
   .footer-icon {
     margin-left: 120px;
     margin-bottom: 0;
-  }
-  .footer-content {
-    margin-right: 24pxpx;
-    margin-left: 0;
   }
 }
