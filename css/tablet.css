@@ -8,18 +8,6 @@
   .link {
     margin-right: 120px;
   }
-  .header-link {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--title-color);
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    transition: color 250ms linear;
-    position: relative;
-  }
   .header-link.current::after {
     bottom: -18px;
   }
@@ -91,7 +79,6 @@
     width: 768px;
   }
   .main-section {
-    padding-top: 112px;
     padding-bottom: 108px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -119,22 +106,21 @@
   }
   /* --------------Section-------------- */
 
-  .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-
   .section > .conteiner {
     width: 766px;
   }
   .section-item {
-    width: calc((100% - 30px) / 2);
+    width: calc((100% - 26px) / 2);
   }
 
   .section-title {
     text-align: left;
+    font-size: 20px;
+    line-height: 1.2;
   }
-
+  .section-list {
+    column-gap: 24px;
+  }
   .skills-icon-bg {
     display: none;
   }
@@ -147,15 +133,19 @@
 
   /* -------------Team------------ */
   .team {
-    padding-top: 96px;
     padding-bottom: 104px;
   }
   .list-item {
-    width: calc((100% - 30px) / 2);
+    width: calc((100% - 24px) / 2);
+  }
+  .list-team {
+    column-gap: 24px;
+    row-gap: 64px;
   }
   .team > .container {
     width: 582px;
   }
+
   /* ------------Customers------------ */
   .customers {
     padding-top: 100px;
@@ -163,18 +153,16 @@
   }
 
   .customers-item {
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - 231px) / 3);
+  }
+  .customers-list {
+    column-gap: 24px;
   }
 
   /* -----------Footer------------ */
 
-  .footer {
-    display: flex;
-  }
-
   .footer-content {
     margin-right: 24px;
-    gap: 24px;
   }
   .footer-link {
     display: block;
@@ -185,6 +173,9 @@
   .footer-input-paragraph {
     display: block;
   }
+  .footer-icon {
+    margin-left: 24px;
+  }
   .footer-btn {
     display: flex;
   }
@@ -192,7 +183,7 @@
     width: 264px;
   }
   .online-form {
-    margin-left: 80px;
+    margin-left: 108px;
   }
   .online-button {
     margin-left: 24px;
@@ -200,7 +191,6 @@
   .modal {
     width: 408px;
   }
-
   .check-text {
     display: flex;
   }

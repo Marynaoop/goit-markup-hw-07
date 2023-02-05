@@ -57,7 +57,6 @@ img {
 }
 
 .link {
-  /* margin-right: 76px; */
   text-decoration: none;
 }
 
@@ -163,6 +162,8 @@ img {
   justify-content: center;
   margin-left: auto;
   margin-bottom: 16px;
+  margin-top: 40px;
+  margin-right: 40px;
 }
 
 .mob-menu-list {
@@ -179,8 +180,10 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.mob-menu-items:hover {
-  background-color: #4d5ae5;
+
+.mob-menu-items:hover,
+.mob-menu-items:focus {
+  color: ##404bbf;
 }
 
 .mob-menu-mail {
@@ -204,9 +207,13 @@ img {
 .mob-soc-list {
   margin-top: 48px;
   gap: 56px;
-  justify-content: space-between;
 }
+.m-list {
+  list-style: none;
+  display: flex;
 
+  gap: 24px;
+}
 .mob-soc-item {
   height: 27px;
 }
@@ -237,11 +244,9 @@ img {
     url(../img/imgmob/bag-mob.jpg);
   padding-top: 112px;
   padding-bottom: 112px;
-
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -260,16 +265,12 @@ img {
   font-weight: 500;
   font-size: 29px;
   line-height: 1.11;
-  /* font-size: 56px;
-  line-height: 1.07; */
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-color);
   margin-bottom: 72px;
-  /* margin-bottom: 48px; */
   outline: 1px;
   max-width: 318px;
-  /* max-width: 496px; */
   margin: 0 auto;
 }
 .main-button {
@@ -308,16 +309,16 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  row-gap: 72px;
 }
 .section-item {
-  width: 100%;
+  width: 396px;
 }
 
 .section-title {
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: calc(40 / 36);
   letter-spacing: 0.02em;
   color: var(--title-color);
   margin-bottom: 8px;
@@ -329,7 +330,6 @@ img {
   color: var(--header-color);
   display: flex;
   margin: 0 auto;
-  margin-bottom: 72px;
 }
 .skills-icon-bg {
   background: var(--background-color);
@@ -364,8 +364,6 @@ img {
   list-style: none;
   padding-top: 96px;
   padding-bottom: 128px;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
 }
 
 .list-item {
@@ -374,14 +372,14 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  width: 100%;
+  width: 260.35px;
 }
 .list-team {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 72px;
 }
 .team > .container {
   width: 294px;
@@ -448,20 +446,17 @@ img {
 /* ------------------Customers---------------- */
 
 .customers {
-  padding-top: 84px;
-  padding-bottom: 84px;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 24px;
+  row-gap: 72px;
+  column-gap: 16px;
 }
 .customers-item {
-  width: calc((100% - 30px) / 2);
-  /* width: calc((100% - 88px / 6)); */
+  width: calc((100% - 18px) / 2);
   height: 88px;
 }
 .customers-link {
@@ -491,8 +486,6 @@ img {
   background: var(--title-color);
   padding-top: 96px;
   padding-bottom: 96px;
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
   border-style: 5 px dotted;
 }
 .footer > .container {
@@ -547,7 +540,7 @@ img {
 .footer-messenger-paragraph {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--main-color);
   margin-bottom: 16px;
@@ -583,7 +576,6 @@ img {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  /* margin-left: 80px; */
 }
 
 .footer-input-paragraph {
