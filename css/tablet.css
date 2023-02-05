@@ -163,6 +163,7 @@
 
   .footer-content {
     margin-right: 24px;
+    margin-left: 108px;
   }
   .footer-link {
     display: block;
@@ -174,7 +175,7 @@
     display: block;
   }
   .footer-icon {
-    margin-left: 24px;
+    margin-left: 0;
   }
   .footer-btn {
     display: flex;
