@@ -137,13 +137,15 @@ img {
   width: 100vw;
   height: 100vh;
   background-color: #fff;
-  position: fixed;
+
   top: 0;
   z-index: 1;
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
+  position: absolute;
 }
+
 .menu-container {
   height: 100%;
   display: flex;
@@ -162,8 +164,6 @@ img {
   justify-content: center;
   margin-left: auto;
   margin-bottom: 16px;
-  margin-top: 40px;
-  margin-right: 40px;
 }
 
 .mob-menu-list {
@@ -183,7 +183,7 @@ img {
 
 .mob-menu-items:hover,
 .mob-menu-items:focus {
-  color: ##404bbf;
+  color: #404bbf;
 }
 
 .mob-menu-mail {
@@ -211,8 +211,7 @@ img {
 .m-list {
   list-style: none;
   display: flex;
-
-  gap: 24px;
+  column-gap: 56px;
 }
 .mob-soc-item {
   height: 27px;
